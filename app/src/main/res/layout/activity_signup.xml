@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+    <!--RelativeLayout
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:background="#AAAAAA">
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="Cancel"
+            android:id="@+id/backButton" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="21sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout-->
+
+
+    <fragment
+        android:id="@+id/place_autocomplete_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/navigation"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="317dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="151dp"
+                android:layout_height="44dp"
+                android:background="@mipmap/default_textedit">
+                <EditText
+                    android:id="@+id/firstNameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="5dp"
+                    android:hint="First Name"
+                    android:inputType="textEmailAddress"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="151dp"
+                android:layout_height="44dp"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/default_textedit">
+                <EditText
+                    android:id="@+id/lastNameEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="5dp"
+                    android:hint="Last Name"
+                    android:inputType="textEmailAddress"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="317dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/email_textfield">
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="50dp"
+                android:hint="Email address"
+                android:inputType="textEmailAddress"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="317dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/password_textfield">
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="50dp"
+                android:hint="Password"
+                android:inputType="textPassword"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="163dp"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/default_textedit">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/companyNameEditText"
+                        android:layout_marginLeft="5dp"
+                        android:hint="@string/company_name"
+                        android:inputType="textEmailAddress"
+                        android:layout_marginTop="5dp"
+                        android:background="@android:color/transparent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="163dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/companyImageViewLayout">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:id="@+id/companyImageView"
+                        android:src="@mipmap/placeholder"
+                        android:layout_marginLeft="22dp"
+                        android:scaleType="centerCrop"
+                        app:riv_corner_radius="20dp"
+                        app:riv_border_width="1dp"
+                        app:riv_oval="false"
+                        app:riv_border_color="#333333" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="163dp"
+                    android:layout_height="44dp"
+                    android:background="@mipmap/default_textedit"
+                    android:layout_marginTop="5dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/stateNameEditText"
+                        android:layout_marginLeft="5dp"
+                        android:inputType="textEmailAddress"
+                        android:hint="@string/state_name"
+                        android:background="@android:color/transparent"
+                        android:layout_marginTop="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="163dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@mipmap/default_textedit">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/locationNameEditText"
+                        android:layout_marginLeft="5dp"
+                        android:hint="@string/location_name"
+                        android:inputType="textEmailAddress"
+                        android:background="@android:color/transparent"
+                        android:layout_marginTop="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="163dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@mipmap/default_textedit">
+
+                    <Spinner
+                        android:id="@+id/roleSpinner"
+                        android:layout_width="163dp"
+                        android:layout_height="44dp"
+                        android:drawSelectorOnTop="true" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:id="@+id/profileImageView"
+                android:src="@mipmap/placeholder"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius="20dp"
+                app:riv_border_width="1dp"
+                app:riv_oval="false"
+                app:riv_border_color="#333333"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="163dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textAllCaps="false"
+            android:background="@mipmap/button"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

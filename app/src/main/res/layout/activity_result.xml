@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <!--RelativeLayout
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:background="#EEEEEE">
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="Edit Profile"
+            android:id="@+id/editProfileButton" />
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="Friend Sign-Up"
+            android:id="@+id/friendSignUpButton" />
+
+    </RelativeLayout-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="315dp"
+                android:layout_height="wrap_content">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/profileImageView"
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="centerCrop"
+                    android:layout_centerInParent="true"
+                    app:riv_corner_radius="30dp"
+                    app:riv_border_width="2dip"
+                    app:riv_oval="false"
+                    app:riv_border_color="#333333"/>
+
+                <ImageView
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/eeapp"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Your voice has been heard!"
+                android:textSize="17sp"/>
+            <RelativeLayout
+                android:id="@+id/showBarChartLayout"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/stats_section_background">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Your Rating"
+                    android:textStyle="bold"
+                    android:textSize="25sp"/>
+                <TextView
+                    android:id="@+id/participantsNumberTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="31dp"
+                    android:text="187 Reviews"
+                    android:textSize="21sp"/>
+                <TextView
+                    android:id="@+id/yourScoreTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:text="4.1"
+                    android:textStyle="bold"
+                    android:textSize="27sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+                <Button
+                    android:id="@+id/chatButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="69dp"
+                    android:background="@mipmap/chat"/>
+                <Button
+                    android:id="@+id/moreReviewsButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="63dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@mipmap/star"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <Button
+                    android:id="@+id/topFiveUsersButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="@mipmap/trophy"/>
+                <Button
+                    android:id="@+id/kudosButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@mipmap/heart"/>
+                <Button
+                    android:id="@+id/supportButton"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="22dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@mipmap/email"/>
+            </RelativeLayout>
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="28dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="right"
+                android:background="@mipmap/logout_button"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

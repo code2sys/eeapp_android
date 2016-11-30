@@ -1,0 +1,7 @@
+<resources>
+
+    <!--Introduction-->
+
+    <dimen name="actionbar_button_size">32dp</dimen>
+
+</resources>

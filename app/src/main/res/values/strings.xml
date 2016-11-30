@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">EEapp</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity.categorystats.title">Category Ranking</string>
+    <string name="activity.commentcompose.title"></string>
+    <string name="activity.messagecompose.title"></string>
+    <string name="activity.messagethread.title"></string>
+    <string name="activity.result.title"></string>
+    <string name="activity.review.title"></string>
+    <string name="activity.signup.title">Sign Up</string>
+    <string name="activity.resetpassword.title">Change Password</string>
+    <string name="activity.forgotpassword.title">Forgot Password</string>
+
+    <string name="common.chat">Chat</string>
+    <string name="common.done">Done</string>
+    <string name="common.compose">Compose</string>
+    <string name="common.send">Send</string>
+    <string name="common.edit_profile">Edit Profile</string>
+    <string name="common.friend_signup">Invite Others</string>
+    <string name="employeeSpinner">Choose Employee</string>
+    <string name="company_name">Company Name</string>
+    <string name="state_name">State Name</string>
+    <string name="location_name">Location Name</string>
+</resources>

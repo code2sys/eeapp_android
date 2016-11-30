@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+    <!--RelativeLayout
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentTop="true"
+        android:background="#EEEEEE">
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="Home"
+            android:id="@+id/backButton" />
+
+        <info.hoang8f.android.segmented.SegmentedGroup
+            xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/segmentedGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            segmentedgroup:sc_border_width="2dp"
+            segmentedgroup:sc_corner_radius="10dp">
+
+            <RadioButton
+                android:id="@+id/newKudosRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Kudos"
+                android:checked="true"
+                style="@style/RadioButton" />
+
+            <RadioButton
+                android:id="@+id/myKudosRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My Kudos"
+                style="@style/RadioButton" />
+        </info.hoang8f.android.segmented.SegmentedGroup>
+
+    </RelativeLayout-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/newKudosScrollView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="210dp"
+                        android:layout_height="112dp"
+                        android:layout_gravity="center"
+                        android:src="@mipmap/eeapp"/>
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#ffffff"
+                            android:padding="1dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageProfile"
+                                android:src="@mipmap/eeapp"
+                                android:scaleType="centerCrop"
+                                app:riv_corner_radius="30dp"
+                                app:riv_border_width="2dip"
+                                app:riv_oval="false"
+                                app:riv_border_color="#333333"
+                                android:layout_centerInParent="true" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="260dp"
+                            android:layout_height="44dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/default_textedit"
+                            android:layout_marginLeft="90dp">
+
+                            <Spinner
+                                android:id="@+id/employeeSpinner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:background="@android:color/transparent"
+                                android:hint="@string/employeeSpinner"/>
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="260dp"
+                            android:layout_height="44dp"
+                            android:layout_marginTop="54dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/default_textedit"
+                            android:layout_marginLeft="90dp">
+                            <Spinner
+                                android:id="@+id/categorySpinner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:background="@android:color/transparent"
+                                android:hint="Choose Category"/>
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/kudos_textview_background">
+                        <EditText
+                            android:id="@+id/kudosEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:padding="10dp"
+                            android:gravity="top"
+                            android:hint="Example: Joe is one of the most detail-oriented employees at our company…"/>
+                    </RelativeLayout>
+
+                    <Button
+                        android:id="@+id/submitButton"
+                        android:layout_width="180dp"
+                        android:layout_height="37dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:text="Submit"
+                        android:textColor="@android:color/white"
+                        android:textSize="22sp"
+                        android:textAllCaps="false"
+                        android:background="@mipmap/button"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <ListView
+            android:id="@+id/myKudosListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="150dp" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

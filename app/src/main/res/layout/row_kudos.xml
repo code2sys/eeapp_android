@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="20dp"
+        app:riv_border_width="1dp"
+        app:riv_oval="false"
+        app:riv_border_color="#333333"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/profileImageView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:text="Borys.W"/>
+    <TextView
+        android:id="@+id/kudosTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameTextView"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/nameTextView"
+        android:maxLines="2"
+        android:text="Boloco - Hanover"/>
+</RelativeLayout>

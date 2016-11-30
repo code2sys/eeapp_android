@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/containerLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="210dp"
+                    android:layout_height="112dp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/eeapp"/>
+
+                <RelativeLayout
+                    android:layout_width="260dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/email_textfield">
+                    <EditText
+                        android:id="@+id/emailEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="50dp"
+                        android:text="jef28@mac.com"
+                        android:hint="Email address"
+                        android:inputType="textEmailAddress"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="260dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/password_textfield">
+                    <EditText
+                        android:id="@+id/passwordEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="50dp"
+                        android:hint="Password"
+                        android:text="password"
+                        android:inputType="textPassword"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="260dp"
+                    android:layout_height="44dp"
+                    android:layout_marginTop="10dp">
+                    <CheckBox
+                        android:id="@+id/rememberMeCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentLeft="true"
+                        android:text="Remember Me"
+                        android:checked="true"
+                        android:textSize="14sp" />
+                    <Button
+                        android:id="@+id/forgotButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:layout_toRightOf="@+id/rememberMeCheckBox"
+                        android:text="Forgot Password?"
+                        android:textSize="14sp"
+                        android:textAllCaps="false"
+                        android:background="@android:color/transparent"
+                        android:layout_marginTop="5dp" />
+                </RelativeLayout>
+
+
+                <Button
+                    android:id="@+id/logInButton"
+                    android:layout_width="180dp"
+                    android:layout_height="37dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="Log In"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp"
+                    android:textAllCaps="false"
+                    android:background="@mipmap/button"/>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/signUpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/containerLayout"
+                android:layout_marginTop="60dp"
+                android:text="Sign Up for EEapp"
+                android:textSize="22sp"
+                android:textAllCaps="false"
+                android:background="@android:color/transparent"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

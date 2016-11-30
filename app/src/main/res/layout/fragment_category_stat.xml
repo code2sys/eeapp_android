@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/categoryDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="CARES ABOUT THE COMPANY"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/participantsNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="14 Reviews"
+            android:textSize="17sp"/>
+        <RelativeLayout
+            android:id="@+id/rankingGroupLayout"
+            android:layout_width="300dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/stats_section_background"
+            android:visibility="invisible">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:text="Top Five"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="38dp"
+                android:text="Your Rank: "
+                android:textStyle="bold"
+                android:textSize="27sp"/>
+            <TextView
+                android:id="@+id/rankingTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="45dp"
+                android:layout_marginTop="38dp"
+                android:text="1st"
+                android:textStyle="bold"
+                android:textSize="27sp" />
+        </RelativeLayout>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/chart"
+            android:layout_marginTop = "10dp"
+            android:layout_width="320dp"
+            android:layout_height="320dp" />
+    </LinearLayout>
+
+</RelativeLayout>
