@@ -22,8 +22,13 @@ public class Constants {
     public static String EXTRA_KEY_PARENT_MESSAGE_ID = "extra_key_parent_message_id";
 //    public static String BASE_URL_STRING = "http://192.168.0.101/index.php/api/example/";
     //public static String BASE_URL_STRING = "http://ec2-52-36-3-127.us-west-2.compute.amazonaws.com/index.php/api/example/";
-    public static String BASE_URL_STRING = "http://ec2-52-36-3-127.us-west-2.compute.amazonaws.com/index.php/api/v1.0/";
-    public static String BASE_RESOURCE_URL_STRING = "http://ec2-52-36-3-127.us-west-2.compute.amazonaws.com/";
+
+    //public static String BASE_URL_STRING = "http://ec2-52-36-3-127.us-west-2.compute.amazonaws.com/index.php/api/v1.0/";
+    //public static String BASE_RESOURCE_URL_STRING = "http://ec2-52-36-3-127.us-west-2.compute.amazonaws.com/";
+
+    public static String BASE_URL_STRING = "http://52.36.3.127/index.php/api/v1.0/";
+    public static String BASE_RESOURCE_URL_STRING = "https://52.36.3.127/";
+
 //    public static String BASE_URL_STRING = "http://ec2--54--173--4--162-compute--1-amazonaws-com-ge3p8bp3h8t9.runscope.net/index.php/api/example/";
 
 }

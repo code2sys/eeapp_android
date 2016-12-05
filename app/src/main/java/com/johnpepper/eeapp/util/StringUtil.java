@@ -5,11 +5,13 @@ package com.johnpepper.eeapp.util;
  */
 public class StringUtil {
     public static String userImageURLFromUserID(String userID){
-        return "http://ec2-52-36-3-127.us-west-2.compute.amazonaws.com/photo/"+userID+"/profile_thumb.jpg";
+        //return "http://ec2-52-36-3-127.us-west-2.compute.amazonaws.com/photo/"+userID+"/profile_thumb.jpg";
+        return "http://52.36.3.127/photo/"+userID+"/profile.jpg";
     }
 
     public static String companyImageURLFromCompanyID(String companyID){
-        return "http://ec2-52-36-3-127.us-west-2.compute.amazonaws.com/company_logo/"+companyID+"/profile.jpg";
+        //return "http://ec2-52-36-3-127.us-west-2.compute.amazonaws.com/company_logo/"+companyID+"/profile.jpg";
+        return "http://52.36.3.127/company_logo/"+companyID+"/profile.jpg";
     }
 
     public static String addSuffixToNumber (int number) {

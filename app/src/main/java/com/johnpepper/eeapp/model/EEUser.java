@@ -8,6 +8,7 @@ import org.json.JSONObject;
 
 /**
  * Created by borysrosicky on 10/29/15.
+ *
  */
 public class EEUser {
     public JSONObject userInfo;

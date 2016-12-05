@@ -185,7 +185,12 @@ public class ReviewPageFragment extends Fragment {
                                     //ratingBar.setEnabled(false);
                                     ReviewActivity activity = (ReviewActivity) getActivity();
                                     if (activity != null) {
-                                        activity.didPostRate(mIndex, (int) rating, ratingID, mReviewAttribute.getInt("category_id"), mReviewAttribute.getString("first_name"));
+                                        if (mReviewAttribute.getInt("target_user_id") == -1) {
+                                            activity.didPostRate(mIndex, (int) rating, ratingID, mReviewAttribute.getInt("category_id"), mReviewAttribute.getString("user_name"));
+                                        } else {
+                                            activity.didPostRate(mIndex, (int) rating, ratingID, mReviewAttribute.getInt("category_id"), mReviewAttribute.getString("first_name"));
+                                        }
+
                                     }
 
                                 }

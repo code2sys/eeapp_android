@@ -2,88 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-60c6dffbe5ad1b94ab84c0ba097176a580487db7.jar" />
-    </item>
-    <item
-        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-b30b67c0b9b187163ac2568c590c09e19a8bc3e6.jar" />
-    </item>
-    <item
-        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.makeramen/roundedimageview/2.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="814fc0c3ec69a944add398217d90077301501a74">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-35cd8094f5589225ae5e3fccfdad444f2391f100.jar" />
-    </item>
-    <item
-        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-d1c48df47e63104283bed74301aaadbe4cc52ea5.jar" />
-    </item>
-    <item
-        jar="/Users/Dragon/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.1.5/34b9f39e5343d39e205fb7617e734601dc4868e7/MPAndroidChart-v2.1.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="34b9f39e5343d39e205fb7617e734601dc4868e7">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/MPAndroidChart-v2.1.5-1be818d2b8dc30ea8e2b122c263ba811f81e211b.jar" />
-    </item>
-    <item
-        jar="/Volumes/WORK/Android/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1-43a475466dc30642e4249266c25b6f5f2d8d0072.jar" />
-    </item>
-    <item
-        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.github.vajro/MaterialDesignLibrary/1.6/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="b083f9ed76344c2f2b227c56d597f6d08d3fefc8">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-fc43f879947c055b96e64d210db414b9b7270edb.jar" />
-    </item>
-    <item
-        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/internal_impl-23.1.1-2473b77d1be9742c9cc98ed7e78bd156acc8c7a0.jar" />
-    </item>
-    <item
-        jar="/Users/Dragon/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/library-2.4.0-2872d6bf967c30ea7c2691bcc8ece3c833267414.jar" />
-    </item>
-    <item
-        jar="/Volumes/WORK/John/src/eeapp-android/app/libs/httpmime-4.3.4.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="54ffde537682aea984c22fbcf0106f21397c5f9b">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/httpmime-4.3.4-0e15f8ec51f789cfada5d338b1356dfe250e6e1a.jar" />
-    </item>
-    <item
         jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="a8412b654dab86d57bf90683367488211c8a81f1">
         <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-d0503de80eaaf9a4ca8af2306f1826bc5f1023ad.jar" />
-    </item>
-    <item
-        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-f07caaea8b0afe5a0fcaf31d9810744d3299cbe3.jar" />
     </item>
     <item
         jar="/Volumes/WORK/John/src/eeapp-android/app/libs/httpcore-4.3.2.jar"
@@ -100,39 +23,11 @@
         <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-78653e1e96dcfbd6548f70154015413e5acb8d51.jar" />
     </item>
     <item
-        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="04de44f90606c77f3b28cf44861f306290505aac">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-78a553bc1aab6b84fb7e4560337ac61b6b4b8122.jar" />
-    </item>
-    <item
         jar="/Users/Dragon/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.0/8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0/commons-lang3-3.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="8873bd0bb5cb9ee37f1b04578eb7e26fcdd44cb0">
         <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/commons-lang3-3.0-a7a3c1d7afd7fb510e92845a985ef397e06fb432.jar" />
-    </item>
-    <item
-        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-373cd0b88295c59752e5e6eb4db79aa74e24540c.jar" />
-    </item>
-    <item
-        jar="/Users/Dragon/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.4/dd9eeb557650c4ad7394df23f0f5cf27a7cfc697/universal-image-loader-1.9.4.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/universal-image-loader-1.9.4-6f861f40953cc4245de6dec1778d488ad4451405.jar" />
-    </item>
-    <item
-        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.6/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="692a913dff3246e0cc5369c2508f5970ecfeca01">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-25f2504d697bbbe651f15f1fe65e38f80a9a7a27.jar" />
     </item>
     <item
         jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
@@ -142,11 +37,116 @@
         <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-1dccd56641f5702597e3f38a27715f3672a8f232.jar" />
     </item>
     <item
+        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/info.hoang8f/android-segmented/1.0.6/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="692a913dff3246e0cc5369c2508f5970ecfeca01">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-25f2504d697bbbe651f15f1fe65e38f80a9a7a27.jar" />
+    </item>
+    <item
+        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-b30b67c0b9b187163ac2568c590c09e19a8bc3e6.jar" />
+    </item>
+    <item
+        jar="/Volumes/WORK/John/src/eeapp-android/app/libs/httpclient-4.3.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a9a1fef2faefed639ee0d0fba5b3b8e4eb2ff2d8">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/httpclient-4.3.4-767d4a278cb4f95c5067dc757fdfb8d88c6a42ac.jar" />
+    </item>
+    <item
+        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.makeramen/roundedimageview/2.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="814fc0c3ec69a944add398217d90077301501a74">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-35cd8094f5589225ae5e3fccfdad444f2391f100.jar" />
+    </item>
+    <item
         jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
         <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-a8fa3dc0088eb2089da03d9fdb911f73442e2958.jar" />
+    </item>
+    <item
+        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-78a553bc1aab6b84fb7e4560337ac61b6b4b8122.jar" />
+    </item>
+    <item
+        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-d1c48df47e63104283bed74301aaadbe4cc52ea5.jar" />
+    </item>
+    <item
+        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/internal_impl-23.1.1-2473b77d1be9742c9cc98ed7e78bd156acc8c7a0.jar" />
+    </item>
+    <item
+        jar="/Users/Dragon/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.4/dd9eeb557650c4ad7394df23f0f5cf27a7cfc697/universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/universal-image-loader-1.9.4-6f861f40953cc4245de6dec1778d488ad4451405.jar" />
+    </item>
+    <item
+        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-f07caaea8b0afe5a0fcaf31d9810744d3299cbe3.jar" />
+    </item>
+    <item
+        jar="/Volumes/WORK/Android/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1-43a475466dc30642e4249266c25b6f5f2d8d0072.jar" />
+    </item>
+    <item
+        jar="/Volumes/WORK/John/src/eeapp-android/app/libs/httpmime-4.3.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="54ffde537682aea984c22fbcf0106f21397c5f9b">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/httpmime-4.3.4-0e15f8ec51f789cfada5d338b1356dfe250e6e1a.jar" />
+    </item>
+    <item
+        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-373cd0b88295c59752e5e6eb4db79aa74e24540c.jar" />
+    </item>
+    <item
+        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-60c6dffbe5ad1b94ab84c0ba097176a580487db7.jar" />
+    </item>
+    <item
+        jar="/Users/Dragon/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.1.5/34b9f39e5343d39e205fb7617e734601dc4868e7/MPAndroidChart-v2.1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="34b9f39e5343d39e205fb7617e734601dc4868e7">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/MPAndroidChart-v2.1.5-1be818d2b8dc30ea8e2b122c263ba811f81e211b.jar" />
+    </item>
+    <item
+        jar="/Users/Dragon/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/library-2.4.0-2872d6bf967c30ea7c2691bcc8ece3c833267414.jar" />
     </item>
     <item
         jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.kbeanie/image-chooser-library/1.5.2/jars/classes.jar"
@@ -156,11 +156,11 @@
         <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-3b84ae379ddec0f186bff0e202b7eba72e14d54e.jar" />
     </item>
     <item
-        jar="/Volumes/WORK/John/src/eeapp-android/app/libs/httpclient-4.3.4.jar"
+        jar="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/exploded-aar/com.github.vajro/MaterialDesignLibrary/1.6/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="a9a1fef2faefed639ee0d0fba5b3b8e4eb2ff2d8">
-        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/httpclient-4.3.4-767d4a278cb4f95c5067dc757fdfb8d88c6a42ac.jar" />
+        sha1="b083f9ed76344c2f2b227c56d597f6d08d3fefc8">
+        <dex dex="/Volumes/WORK/John/src/eeapp-android/app/build/intermediates/pre-dexed/release/classes-fc43f879947c055b96e64d210db414b9b7270edb.jar" />
     </item>
 
 </items>
